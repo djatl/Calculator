@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black; 
+    border-radius: 5px;
+    padding: 5px;
+    flex: 1;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    width: 210px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.key-row {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex: 1;
+    
+}
+
+button {
+    min-height: 50px;
+    min-width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button#zero {
+    min-width: 110px;
+}
+
+.operator {
+    background:rgb(239, 181, 120)
+}
